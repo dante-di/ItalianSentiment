@@ -1,7 +1,7 @@
 # ItalianSentiment
 AILab Uniud Italian Sentiment Experiments
 
-Imagine, design, and develop your feature extraction algorithm.
+Dream, imagine, design, and develop your feature extraction algorithm.
 Then use our "ARFF Exporter" class to feed data to WEKA.
 Run a bunch of classifier and outperform all the other Sentiment Analysis Systems in the world!
 
