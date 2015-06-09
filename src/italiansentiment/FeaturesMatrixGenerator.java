@@ -13,7 +13,7 @@
 package italiansentiment;
 
 import au.com.bytecode.opencsv.CSV;
-import it.uniud.POSTaggerUtils.ItalianLinguisticUtils;
+import it.uniud.ailab.linguisticutilities.ItalianLinguisticUtils;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -35,13 +35,15 @@ public class FeaturesMatrixGenerator {
     public static void main(String[] args) {
         //Review SET
 //        String reviewDataset = "/home/dante/Dropbox/universita/dataset/tripadvisorITA/tripadvisorBALANCED.csv";
-        String reviewDataset = "/home/dante/Dropbox/universita/dataset/tripadvisorITA/validationSet.csv";
+//        String reviewDataset = "/home/dante/Dropbox/universita/dataset/tripadvisorITA/validationSet.csv";
+        String reviewDataset = "/home/dante/Dropbox/universita/dataset/tripadvisorITA/tripadvisorCLEANED_VOTE.csv";
+        
         
         Set<String> features = new HashSet<>();
         
 //        String fileName = "/home/dante/Dropbox/universita/dottorato/corsiSeguiti/ANN/frequency/250.txt";
         String fileName = "/home/dante/Dropbox/universita/dottorato/corsiSeguiti/ANN/frequency/250.txt";
-        String outputArffFile = "/home/dante/Scrivania/250_VALIDATION.arff";
+        String outputArffFile = "/home/dante/Scrivania/65K_VALIDATION.arff";
         BufferedReader br = null;
 
         //read the features file

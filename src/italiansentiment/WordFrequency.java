@@ -14,7 +14,7 @@
 package italiansentiment;
 
 import au.com.bytecode.opencsv.CSV;
-import it.uniud.POSTaggerUtils.ItalianLinguisticUtils;
+import it.uniud.ailab.linguisticutilities.ItalianLinguisticUtils;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
